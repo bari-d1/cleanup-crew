@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary meta -->
+  <title>The Cleanup Crew - Web Design & Automation</title>
+  <meta name="description" content="The Cleanup Crew specialises in web design, website redesigns and business process automation. We help businesses look sharper and operate smarter online." />
+  <meta name="keywords" content="web design, website redesign, business automation, web agency, cleanup crew" />
+  <meta name="author" content="The Cleanup Crew" />
+  <meta name="theme-color" content="#51BFFF" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://thecleanupcrew.com/" />
+
+  <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://thecleanupcrew.com/" />
+  <meta property="og:title" content="The Cleanup Crew - Web Design & Automation" />
+  <meta property="og:description" content="We specialise in web design, website redesigns and business process automation. Make a great impression online." />
+  <meta property="og:image" content="https://thecleanupcrew.com/assets/images/og-image.png" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The Cleanup Crew - Web Design & Automation" />
+  <meta name="twitter:description" content="Web design, redesigns and business automation for businesses ready to level up." />
+  <meta name="twitter:image" content="https://thecleanupcrew.com/assets/images/og-image.png" />
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+
+  <!-- ══════════════ NAVIGATION ══════════════ -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+
+      <!--
+        REPLACE: Logo
+        Swap the .nav__logo-mark div for:
+        <img src="/assets/logo.svg" alt="The Cleanup Crew" class="nav__logo-img" />
+      -->
+      <a href="/" class="nav__logo" aria-label="The Cleanup Crew home">
+        <img src="/assets/images/logo.png" alt="The Cleanup Crew" class="nav__logo-img" />
+      </a>
+
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#hero"     class="nav__link nav__link--active">Home</a></li>
+        <li><a href="#about"    class="nav__link">About us</a></li>
+        <li><a href="#features" class="nav__link">Features</a></li>
+        <li><a href="#faq"      class="nav__link">FAQ</a></li>
+      </ul>
+
+      <a href="#contact" class="btn btn--primary nav__cta">Contact Us</a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero__grid">
+
+        <div class="hero__content">
+          <h1 class="hero__headline">
+            Revamp Your Online Look with The <span class="text-highlight">Cleanup</span> Crew
+          </h1>
+          <p class="hero__sub">
+            Transform your website into a visual delight with The Cleanup Crew. We
+            specialize in giving your pages a fresh, attractive design that grabs attention
+            and drives results. It's time to make a great impression online.
+          </p>
+          <a href="#contact" class="btn btn--primary btn--lg">Contact Us</a>
+        </div>
+
+        <div class="hero__visual">
+          <img src="/assets/images/hero-img.png" alt="Web design collaboration illustration" class="hero__img" />
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ FEATURES / SERVICES ══════════════ -->
+  <section class="features" id="features">
+    <div class="container">
+
+      <h2 class="features__title">How We Can Help Your Business</h2>
+
+      <div class="features__bg">
+        <div class="features__tab features__tab--left"  aria-hidden="true"></div>
+        <div class="features__tab features__tab--right" aria-hidden="true"></div>
+
+        <div class="features__grid">
+
+          <div class="feature-card-1">
+            <div class="feature-card__body feature-card__body-1">
+              <h3 class="feature-card__title">Website Redesigns</h3>
+              <p class="feature-card__desc">Transforming outdated websites into modern, user-friendly, and visually appealing platforms.</p>
+            </div>
+            <div class="feature-card__illustration feat-redesign" style="margin: 0;">
+              <img src="/assets/images/feat-redesign-2.png" alt="" class="feat-redesign__back" aria-hidden="true" />
+              <img src="/assets/images/feat-redesign-1.png" alt="" class="feat-redesign__front" aria-hidden="true" />
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__body">
+              <h3 class="feature-card__title">Business Process Automation</h3>
+              <p class="feature-card__desc">Streamlining and automating business processes to increase efficiency and reduce operational costs.</p>
+            </div>
+            <div class="feature-card__illustration feat-automation">
+              <img src="/assets/images/feat-automation-1.png" alt="" class="feat-automation__left" aria-hidden="true" />
+              <img src="/assets/images/feat-automation-2.png" alt="" class="feat-automation__right" aria-hidden="true" />
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__body">
+              <h3 class="feature-card__title">Technological Integration</h3>
+              <p class="feature-card__desc">Integrating innovative technological solutions that align with your business goals and improve overall functionality.</p>
+            </div>
+            <div class="feature-card__illustration feat-tech">
+              <img src="/assets/images/feat-tech-bg.png" alt="" class="feat-tech__bg" aria-hidden="true" />
+              <img src="/assets/images/feat-tech-1.png"  alt="" class="feat-tech__img feat-tech__img--1" aria-hidden="true" />
+              <img src="/assets/images/feat-tech-2.png"  alt="" class="feat-tech__img feat-tech__img--2" aria-hidden="true" />
+              <img src="/assets/images/feat-tech-3.png"  alt="" class="feat-tech__img feat-tech__img--3" aria-hidden="true" />
+            </div>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__body">
+              <h3 class="feature-card__title">Technical Support</h3>
+              <p class="feature-card__desc">Addressing various technical challenges to ensure your business operations run smoothly and without interruption.</p>
+            </div>
+            <div class="feature-card__illustration feat-support">
+              <img src="/assets/images/feat-tech-bg.png"   alt="" class="feat-tech__bg" aria-hidden="true" />
+              <img src="/assets/images/feat-support-1.png" alt="" class="feat-support__img feat-support__img--1" aria-hidden="true" />
+              <img src="/assets/images/feat-support-2.png" alt="" class="feat-support__img feat-support__img--2" aria-hidden="true" />
+              <img src="/assets/images/feat-support-3.png" alt="" class="feat-support__img feat-support__img--3" aria-hidden="true" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ WHY CHOOSE US ══════════════ -->
+  <section class="why-us" id="about">
+    <div class="container">
+
+      <h2 class="why-us__title">Why Choose Us</h2>
+
+      <div class="why-us__grid">
+
+        <!-- Left: two stacked bullet cards -->
+        <div class="why-us__left">
+
+          <div class="why-card">
+            <div class="why-item">
+              <span class="why-item__icon" aria-hidden="true">
+                <svg width="14" height="11" viewBox="0 0 14 11" fill="none"><path d="M1 5.5L5 9.5L13 1.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <p><strong>We Get to Know You:</strong> We take the time to understand your unique needs and tailor our services to fit just right.</p>
+            </div>
+            <div class="why-item">
+              <span class="why-item__icon" aria-hidden="true">
+                <svg width="14" height="11" viewBox="0 0 14 11" fill="none"><path d="M1 5.5L5 9.5L13 1.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <p><strong>A Friendly, Skilled Team:</strong> Our team is not just knowledgeable and experienced, but also approachable and ready to help.</p>
+            </div>
+          </div>
+
+          <div class="why-card">
+            <div class="why-item">
+              <span class="why-item__icon" aria-hidden="true">
+                <svg width="14" height="11" viewBox="0 0 14 11" fill="none"><path d="M1 5.5L5 9.5L13 1.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <p><strong>We're With You Every Step:</strong> From start to finish, we keep you in the loop and make sure you're happy with every stage of the project.</p>
+            </div>
+            <div class="why-item">
+              <span class="why-item__icon" aria-hidden="true">
+                <svg width="14" height="11" viewBox="0 0 14 11" fill="none"><path d="M1 5.5L5 9.5L13 1.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <p><strong>Your Satisfaction Matters:</strong> We're not satisfied until you are. Your success is our success, and we work hard to make it happen.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: tall illustrated card -->
+        <div class="why-us__right">
+          <div class="why-feature-card">
+            <div class="why-feature-card__body">
+              <h3 class="why-feature-card__title">Website Redesigns</h3>
+              <p class="why-feature-card__desc">Transforming outdated websites into modern, user-friendly, and visually appealing platforms.</p>
+            </div>
+            <div class="why-feature-card__illustration">
+              <img src="/assets/images/why-illustration.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ HOW WE WORK ══════════════ -->
+  <section class="how-we-work" id="process">
+    <div class="container">
+
+      <h2 class="how-we-work__title">How We Work</h2>
+
+      <div class="how-we-work__grid">
+
+        <!-- Left: illustration card -->
+        <div class="how-we-work__visual">
+          <img src="/assets/images/how-we-work.png" alt="The Cleanup Crew team" />
+          <!-- <div class="how-we-work__deco" aria-hidden="true"></div> -->
+        </div>
+
+        <!-- Right: step items -->
+        <div class="how-we-work__steps">
+
+          <div class="how-step">
+            <span class="how-step__icon" aria-hidden="true">
+              <svg width="14" height="11" viewBox="0 0 14 11" fill="none"><path d="M1 5.5L5 9.5L13 1.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <p><strong>Initial Consultation:</strong> We start with a conversation to understand your needs and goals.</p>
+          </div>
+
+          <div class="how-step">
+            <span class="how-step__icon" aria-hidden="true">
+              <svg width="14" height="11" viewBox="0 0 14 11" fill="none"><path d="M1 5.5L5 9.5L13 1.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <p><strong>Tailored Plan:</strong> We create a customized plan that fits your specific requirements.</p>
+          </div>
+
+          <div class="how-step">
+            <span class="how-step__icon" aria-hidden="true">
+              <svg width="14" height="11" viewBox="0 0 14 11" fill="none"><path d="M1 5.5L5 9.5L13 1.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <p><strong>Your Satisfaction Matters:</strong> Our skilled team gets to work, keeping you updated every step of the way.</p>
+          </div>
+
+          <div class="how-step">
+            <span class="how-step__icon" aria-hidden="true">
+              <svg width="14" height="11" viewBox="0 0 14 11" fill="none"><path d="M1 5.5L5 9.5L13 1.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <p><strong>Quality Assurance:</strong> We review and test everything to ensure it meets our high standards.</p>
+          </div>
+
+          <div class="how-step">
+            <span class="how-step__icon" aria-hidden="true">
+              <svg width="14" height="11" viewBox="0 0 14 11" fill="none"><path d="M1 5.5L5 9.5L13 1.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <p><strong>Follow-Up:</strong> We check in to make sure you're completely satisfied with the results.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ SECURE PAYMENTS ══════════════ -->
+  <section class="secure-payments">
+    <div class="container">
+      <div class="secure-payments__card">
+        <div class="secure-payments__content">
+          <h2 class="secure-payments__title">Secure Payments</h2>
+          <p class="secure-payments__desc">
+            At The Cleanup Crew, we understand the importance of trust and security when it
+            comes to financial transactions. That's why we offer the option to broker payments
+            through a secure escrow service. This method ensures that all parties involved can
+            proceed with confidence, knowing that funds are handled safely and transparently.
+          </p>
+          <a href="#contact" class="btn secure-payments__btn">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ FAQ ══════════════ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header section-header--center">
+        <!-- <span class="section-tag">FAQ</span> -->
+        <h2 class="section-title">Frequently Asked Questions</h2>
+      </div>
+      <div class="faq__list">
+        <details class="faq-item reveal" open>
+          <summary class="faq-item__question">
+            What services does The Cleanup Crew offer?
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </summary>
+          <p class="faq-item__answer">
+            We specialise in website design (new builds), website redesigns for existing sites,
+            and business process automations. We handle everything from strategy through to launch.
+          </p>
+        </details>
+        <details class="faq-item reveal">
+          <summary class="faq-item__question">
+            How long does a typical project take?
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </summary>
+          <p class="faq-item__answer">
+            Most web design projects take 3–6 weeks depending on complexity.
+            Automations vary based on scope, and we'll give you a clear timeline in our initial call.
+          </p>
+        </details>
+        <details class="faq-item reveal">
+          <summary class="faq-item__question">
+            Do you work with businesses of all sizes?
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </summary>
+          <p class="faq-item__answer">
+            Yes. We work with startups, small businesses, and growing companies.
+            If you care about quality and want results, we're a great fit.
+          </p>
+        </details>
+        <details class="faq-item reveal">
+          <summary class="faq-item__question">
+            What happens after my site launches?
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </summary>
+          <p class="faq-item__answer">
+            We offer post-launch support and maintenance packages. We don't just build and disappear.
+            we're a long-term partner for your digital growth.
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ CONTACT ══════════════ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__inner">
+        <div class="section-header section-header--center">
+          <!-- <span class="section-tag">Get In Touch</span> -->
+          <h2 class="section-title">Ready to Clean Up Your Digital Presence?</h2>
+          <p class="contact__sub">Tell us about your project and we'll get back to you within 24 hours.</p>
+        </div>
+        <form class="contact__form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email <span aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="service">Service</label>
+            <select id="service" name="service">
+              <option value="">Select a service...</option>
+              <option value="web-design">Web Design</option>
+              <option value="redesign">Website Redesign</option>
+              <option value="automation">Business Process Automation</option>
+              <option value="other">Other / Not sure yet</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message <span aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" placeholder="Tell us about your project..." rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg btn--full" id="submitBtn">Send Message</button>
+          <div class="form-status" id="formStatus" role="alert"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ FOOTER ══════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+
+        <div class="footer__brand">
+          <!-- REPLACE: Footer logo -->
+          <img src="/assets/images/logo.png" alt="The Cleanup Crew" class="footer__logo-img" />
+          <p>Web design, redesign, and automation for businesses ready to level up.</p>
+
+        </div>
+
+        <div class="footer__links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#features">Website Redesign</a></li>
+            <li><a href="#features">Web Design</a></li>
+            <li><a href="#features">Business Automation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2026 The Cleanup Crew. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
